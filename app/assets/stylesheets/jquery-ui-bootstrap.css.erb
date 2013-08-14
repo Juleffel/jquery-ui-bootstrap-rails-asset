@@ -253,7 +253,7 @@
 
 .ui-widget-content {
 	border: 1px solid #aaaaaa;
-	background: #ffffff url("/assets/ui-bg_glass_75_ffffff_1x400.png") 50% 50% repeat-x;
+	background: #ffffff url(<%= asset_path "ui-bg_glass_75_ffffff_1x400.png" %>) 50% 50% repeat-x;
 	color: #404040;
 }
 
@@ -731,7 +731,7 @@
 /* Overlays */
 
 .ui-widget-overlay {
-	background: #aaaaaa url("/assets/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	background: #aaaaaa url(<%= asset_path "ui-bg_flat_0_aaaaaa_40x100.png" %>) 50% 50% repeat-x;
 	opacity: .30;
 	filter:Alpha(Opacity=30);
 }
@@ -739,7 +739,7 @@
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
 	padding: 8px;
-	background: #aaaaaa url("/assets/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	background: #aaaaaa url(<%= asset_path "ui-bg_flat_0_aaaaaa_40x100.png" %>) 50% 50% repeat-x;
 	opacity: .30;
 	filter:Alpha(Opacity=30);
 	-webkit-border-radius: 8px; /* Safari 4 */
